@@ -1,0 +1,143 @@
+/* 와이드 pc  */
+
+*{margin:0; padding:0}
+
+
+article {width:100%; overflow:hidden;}
+
+#title {position:fixed;}
+#logo {width:200px; margin:14% 0 1% 15%;}
+
+.hmain {position:relative; margin-top:85px;}
+.hmain img.main{width:100%; transition:all .5s ease;}
+.hmain .productdesc {width:20%; height:800px; padding:10% 3% 60px 3%; position: relative;
+  z-index: 1; margin:-45% 0 0 20%;  transition:all .5s ease;}
+
+
+.hmain .productdesc h2 {width:120%; font-size:1.8vw; color:#fff; margin: 30% 0 30px 0; transition:all .5s ease;}
+.hmain .productdesc p {width:120%; font-size:1.6vw; color:#fff; transition:all .5s ease;}
+.hmain .productdesc ul {overflow:hidden; width:120px; margin:40px 0 20px 0; transition:all .5s ease;}
+.hmain .productdesc ul li {float:left;}
+.hmain .productdesc ul li img {}
+
+
+img.headphones {width:19%; position:absolute; top:9%; right:25%;  transition:all .5s ease;}
+
+
+
+
+nav .navbox {position:fixed;}
+
+.hdetail {width:80%; margin: -10% 10% 10%; position:relative; transition: all .5s ease}
+.hdetail img:nth-child(1) {width:80%; margin:5% 10%;}
+.hdetail h4 {position:absolute; top: 9%; color:#fff; font-size:1.9vw; font-weight:400; text-align:right; right:21%;}
+.hdetail p.datailTop {width:46%; font-size:1.2vw; font-weight:400; margin-bottom:10%; position:absolute; top:16%; right:21%; text-align:right; color:#fff;}
+.hdetail p.datailTop2 {width:56%; font-size:1.2vw; font-weight:400; margin-bottom:10%; position:absolute; top:26%; right:21%; text-align:right; color:#fff;}
+
+.detailBottom {overflow:hidden;}
+.detailBottom .photoline {float:left;width:40%; margin-top:2%;}
+.detailBottom .photoline ul li {margin: 10% 0;}
+.detailBottom .textline {float:right; width:50%; margin-top:2%;}
+.detailBottom .textline ul {margin-top:-6%;}
+.detailBottom .textline ul li {margin:17% 0 10%;}
+.detailBottom .textline ul li h3 {margin-bottom:5%; font-size:1.8vw; font-size:300;}
+.detailBottom .textline ul li p {font-size:1.3vw; font-weight:300;}
+
+.detailBottom2 {display:none;}
+.productdesc2 {display:none;}
+
+/* 일반 pc */
+@media screen and (max-width:1600px) {
+    .hdetail h4 {top:7%;}
+    .hdetail p.datailTop {top:13%;}
+    .hdetail p.datailTop2 {top:24%;}
+}
+
+@media screen and (max-width:1425px) {
+    .hdetail h4 {top:6%;}
+    .hdetail p.datailTop {top:11%;}
+    .hdetail p.datailTop2 {top:22%;}
+
+}
+
+@media screen and (max-width:1258px) {
+    .hmain .productdesc {height:650px;}
+    .hdetail h4 {top:6%;}
+    .hdetail p.datailTop {top:10%;}
+    .hdetail p.datailTop2 {top:18%;}
+    .detailBottom .textline ul li p {font-size:1.5vw; font-weight:300;}
+    .detailBottom .photoline ul li {margin: 10% 0 28%;}
+
+}
+
+@media screen and (max-width:1187px) {
+
+}
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+.hmain img.main{width:120%; margin-left:-10%; transition:all .5s ease;}
+img.headphones {width:25%; position:absolute; top:4%; right:19%;  transition:all .5s ease;}
+
+.hmain .productdesc h2 {width:160%; font-size:2.6vw; color:#fff; margin: -5% 0 30px -40%; transition:all .5s ease;}
+.hmain .productdesc p {width:150%; font-size:2.1vw; color:#fff; margin-left:-40%; transition:all .5s ease;}
+.hmain .productdesc ul {overflow:hidden; width:120px; margin:40px 0 20px -40%; transition:all .5s ease;}
+.hmain .productdesc {height:400px;}
+
+.hdetail>img:nth-child(1) {width:120%; margin:5% 0 5% -10%;}
+.hdetail h4 {top:4%; right:5%; font-size:2.5vw;}
+.hdetail p.datailTop {top:7%; right:5%; width:66%; font-size:1.8vw;}
+.hdetail p.datailTop2 {top:13%; right:5%; font-size:1.8vw; width:80%;}
+.detailBottom {display:none;}
+.detailBottom2 {display:block;}
+
+.detailBottom2 .detailg h3 {font-size:2.5vw; margin:5% 0 5% 10%;}
+.detailBottom2 .detailg p {width:80%; margin:1% 0 10% 10%; font-size:2vw;}
+}
+
+@media screen and (max-width:994px) {
+
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+.hmain .productdesc {display:none;}
+.hmain img.main{width:160%; margin-left:-46%;}
+img.headphones {width:33%; position:absolute; top:3%; right:28%;}
+
+.productdesc2 {display:block; width:60%; margin:10% 20% 30%;}
+.productdesc2 h2 {text-align:center;}
+.productdesc2 p {color:#333; text-align:center; font-size:2.7vw; margin:10% 15%; width:70%;}
+
+.hdetail h4 {top:7%; right:20%; width:60%; text-align:center; font-size:3.5vw;}
+.hdetail p.datailTop {top:16%; right:10%; color:#333; width:80%; text-align:center; font-size:3.5vw;}
+.hdetail p.datailTop2 {top:28%; right:5%; color:#333; text-align:center; font-size:3.5vw; width:90%;}
+.detailBottom2 {margin-top:170%;}
+}
+
+
+
+/* 모바일 */
+
+@media screen and (max-width:415px) {
+.productdesc2 {display:block; width:80%; margin:10% 10% 30%;}
+.productdesc2 h2 {font-size:6vw;}
+.productdesc2 p {font-size:4vw;}
+}
+
+
+@media screen and (max-width:375px) {
+  .hdetail h4 {top:5%;}
+  .detailBottom2 {margin-top:260%;}
+  .detailBottom2 .detailg h3 {font-size:4vw;}
+.detailBottom2 .detailg p {font-size:3vw;}
+
+}
+
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+	#wrap { min-width:320px; }
+}
+
+

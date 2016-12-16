@@ -1,0 +1,189 @@
+/* 와이드 pc  */
+
+*{margin:0; padding:0}
+
+
+article {width:100%; overflow:hidden;}
+article h2 {margin:10% 0 2% 33%; transition:all .5s ease;}
+
+#title {position:fixed;}
+#logo {width:200px; margin:14% 0 1% 15%;}
+
+.smain {position:relative; width:100%; height:1020px; background:url(../images/smain.jpg) center; background-size:cover;}
+
+.lists {overflow:hidden; position:absolute; top:22%; left:24%; width:30%; transition:all .5s ease;}
+.storelist {float:left;top:10%; left:28%;  transition:all .5s ease;}
+.storelist img {width:100%;}
+.storelist ul { text-align:right; position:absolute; top:4%; left:12%;}
+.storelist ul li {margin:18% 0; font-size:1.1vw; }
+.storelist ul li a {color:#e4e4e4;}
+.storelist ul li span a {color:#f7dca3; border-bottom:2px solid #f7dca3;}
+.pricelist {float:left;  transition:all .5s ease;}
+.pricelist img{width:100%;}
+.pricelist ul {position:absolute; top:5%; right:38%;}
+.pricelist ul li {margin:26% 0; font-size:1.1vw;}
+
+.buyproduct {width:20%; position:absolute; top:12%; right:22%; transition:all .5s ease;}
+.clrs {position:absolute; top:59%; left:33%; transition:all .5s ease;}
+
+a.listsbtn {color:#e8e8e8; font-size:2vw; background-color:rgba(232,232,232,.3); position:absolute; top:82%; left:46%; padding:1% 3%; border:1px solid #e8e8e8;}
+
+
+nav .navbox {position:fixed;}
+
+
+
+/* 일반 pc */
+@media screen and (max-width:1744px) {
+  .storelist ul {left:14%;}
+  .pricelist ul {right:35%;}
+}
+
+@media screen and (max-width:1600px) {
+  .storelist ul li {font-size:1.2vw;}
+  .pricelist ul li {font-size:1.2vw;}
+  .storelist ul {top:8%; left:15%;}
+  .pricelist ul {top:9%; right:26%;}
+  .clrs {left:35%;}
+
+}
+
+@media screen and (max-width:1560px) {
+   .lists {width:40%;}
+    .storelist ul {top:8%; left:12%;}
+     .pricelist ul {top:9%; right:43%;}
+
+}
+
+@media screen and (max-width:1400px) {
+  .lists {left:16%;}
+    .storelist ul li {font-size:1.4vw;}
+  .pricelist ul li {font-size:1.4vw;}
+  .storelist ul {top:8%; left:12%;}
+  .pricelist ul {top:9%; right:36%;}
+  .clrs {left:28%}
+  .buyproduct {width:25%; right:16%;}
+}
+
+@media screen and (max-width:1272px) {
+
+    .storelist ul li {font-size:1.6vw;}
+  .pricelist ul li {font-size:1.6vw;}
+  .storelist ul {top:8%; left:13%;}
+  .pricelist ul {top:9%; right:30%;}
+  .clrs {left:29%}
+  .buyproduct {width:25%; right:16%;}
+  .listsbtn {font-size:2.4vw; top:76%; padding:1% 4%;}
+}
+
+@media screen and (max-width:1172px) {
+.lists {width:50%; left:10%;}
+    .storelist ul li {font-size:1.8vw;}
+  .pricelist ul li {font-size:1.8vw;}
+  .storelist ul {top:8%; left:11%;}
+  .pricelist ul {top:9%; right:36%;}
+  .clrs {left:24%}
+  .buyproduct {width:30%; right:11%;}
+  a.listsbtn {font-size:3vw; top:78%; left:46%; padding:1% 4%;}
+}
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+  .lists {width:50%; left:7%;}
+    .storelist ul li {font-size:2vw;}
+  .pricelist ul li {font-size:2vw;}
+  .storelist ul {top:8%; left:11%;}
+  .pricelist ul {top:9%; right:30%;}
+  .clrs {left:23%}
+.buyproduct {width:33%; right:7%;}
+
+}
+
+@media screen and (max-width:941px) {
+.lists {width:60%; left:25%; top:66%;}
+    .storelist ul li {font-size:2vw;}
+  .pricelist ul li {font-size:2vw;}
+  .storelist ul {top:8%; left:11%;}
+  .pricelist ul {top:9%; right:36%;}
+  .clrs {left:44%; top:57%;}
+.buyproduct {width:36%; right:29%; top:4%;}
+a.listsbtn {display:none;}
+}
+
+@media screen and (max-width:790px) {
+.lists {left:20%; top:66%; width:70%;}
+    .storelist ul li {font-size:2.5vw;}
+  .pricelist ul li {font-size:2.5vw;}
+  .storelist ul {top:8%; left:11%;}
+  .pricelist ul {top:9%; right:34%;}
+  .clrs {left:42%; top:58%;}
+.buyproduct {width:45%; right:26%; top:4%;}
+
+}
+
+@media screen and (max-width:760px) {
+  article h2 {margin:20% 0 2% 20%;}
+}
+
+@media screen and (max-width:677px) {
+.lists {width:462px; left:50%; margin-left:-231px;}
+    .storelist ul li {font-size:2.8vw;}
+  .pricelist ul li {font-size:2.8vw;}
+  .storelist ul {top:8%; left:15%;}
+  .pricelist ul {top:9%; right:25%;}
+  .clrs {left:42%; top:56%;}
+.buyproduct {width:45%; right:26%; top:4%;}
+
+}
+
+@media screen and (max-width:583px) {
+  article h2 {font-size:3.5vw; margin:20% 0 2% 20%;}
+.lists {width:462px; left:50%; margin-left:-231px;}
+  .storelist ul li {font-size:3.5vw;}
+  .pricelist ul li {font-size:3.5vw;}
+  .storelist ul {top:8%; left:15%;}
+  .pricelist ul {top:9%; right:25%;}
+  .clrs {left:38%; top:56%;}
+.buyproduct {width:58%; right:21%; top:4%;}
+
+}
+
+@media screen and (max-width:491px) {
+  .buyproduct {width:66%; right:17%;}
+  .clrs {left:34%;}
+   article h2 {font-size:4.5vw; margin:25% 0 5% 14%;}
+  .storelist ul li {font-size:4.5vw;}
+  .pricelist ul li {font-size:4.5vw;}
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+
+}
+
+
+
+/* 모바일 */
+
+@media screen and (max-width:415px) {
+.buyproduct {width:75%; right:10%;}
+}
+
+
+@media screen and (max-width:320px) {
+  .clrs {top:45%;}
+  .lists {top:57%;}
+  .storelist ul li {font-size:5.5vw;}
+  .pricelist ul li {font-size:5.5vw;}
+    .storelist ul {top:8%; left:21%;}
+  .pricelist ul {top:9%; right:30%;}
+
+}
+
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+	#wrap { min-width:320px; }
+}
+
+
