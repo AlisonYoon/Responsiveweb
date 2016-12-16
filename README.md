@@ -1,6 +1,9 @@
 # Responsiveweb
 This is Bose headphones website with responsive layout created as a personal project.
 
+You can check out the website here
+http://media.alisonyoon.com
+
 Languages used; HTML5, CSS3, JQuery(jquery-1.8.3.min.js)
 
 Copyright
