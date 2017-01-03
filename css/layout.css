@@ -181,6 +181,8 @@ clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);}
 	margin: 0px;
 }
 
+.video_link:hover {color:#EEB685;}
+
 /*  COLUMN SETUP  */
 .ins {
 	display: block;
